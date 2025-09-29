@@ -13,7 +13,7 @@ Deploy and manage applications in Kubernetes using Minikube, kubectl, and Docker
 1. **Setup Tools**
    - Installed Docker Desktop, Minikube, and kubectl on Windows.
 2. **Start Minikube Cluster**
-   - `minikube start --driver=docker --memory=4096 --cpus=2`
+   - `minikube start --driver=docker --memory=3584 --cpus=2`
 3. **Create Deployment**
    - Defined `deployment.yaml` for Nginx app with replicas.
    - Applied using `kubectl apply -f deployment.yaml`.
